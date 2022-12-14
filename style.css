@@ -8,6 +8,7 @@ body {
 
 img {
   display: block;
+   object-fit:contain;
   width: 100vw;
   height: 100vh;
 }
@@ -25,6 +26,8 @@ img {
   text-align: center;
   transition: 2000ms;
   background-image: url(./img/fondonavidad.jpg);
+   background-repeat:no-repeat;
+  background-size:cover;
   color: rgb(255, 255, 255);
   text-shadow: 0 5px 5px red;
   font-size: 10vh;
