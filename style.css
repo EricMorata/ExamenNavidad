@@ -87,7 +87,7 @@ img:hover {
   }
 }
 
-body:active #saludo {
+body:hover #saludo {
   opacity: 1;
 }
 
